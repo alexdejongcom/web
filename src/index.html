@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Alex de Jong ☁️ Microsoft Expert</title>
+  <title>Alex de Jong - Personal Website</title>
   <style>
     /* Reset and full-screen canvas */
     html, body {
@@ -12,7 +12,7 @@
       overflow: hidden;
       background: black;
       font-family: monospace;
-      color: #0F0;
+      color: #fff;
     }
     canvas {
       position: absolute;
@@ -30,8 +30,9 @@
       text-align: center;
       background: rgba(0, 0, 0, 0.6);
       padding: 20px;
-      border: 2px solid #0F0;
+      border: 2px solid #fff;
       border-radius: 10px;
+      color: #fff;
     }
     .overlay h1 {
       margin-bottom: 10px;
@@ -40,7 +41,7 @@
       margin: 0 0 10px;
     }
     .overlay a {
-      color: #0F0;
+      color: #fff;
       text-decoration: none;
       font-weight: bold;
     }
@@ -56,8 +57,12 @@
   <!-- Overlay content -->
   <div class="overlay">
     <h1>Alex de Jong</h1>
-    <p>Welcome to my landing page</p>
-    <p>Connect with me on <a href="https://www.linkedin.com/in/adjnl/" target="_blank">LinkedIn</a> or visit my project at <a href="https://msftuniversity.com" target="_blank">MSFT University</a>.</p>
+    <p>Welcome to my personal website!</p>
+    <p>
+      Connect with me on <a href="https://www.linkedin.com/in/adjnl/" target="_blank">LinkedIn</a>,
+      visit my project at <a href="https://msftuniversity.com" target="_blank">MSFT University</a>,
+      or check out my <a href="https://www.youtube.com/@azuredude" target="_blank">YouTube channel</a>.
+    </p>
   </div>
 
   <script>
@@ -87,7 +92,7 @@
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      // Green text styling
+      // Green text styling for the matrix effect
       ctx.fillStyle = "#0F0";
       ctx.font = fontSize + "px monospace";
 
